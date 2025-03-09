@@ -1,0 +1,62 @@
+.home {
+  background: linear-gradient(0deg, rgba(50, 130, 255, 0.4), rgba(10, 80, 255, 0.9)), url('/taktiklablogo.webp') no-repeat right center;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: contain;
+  min-height: 40vw;
+  color: white;
+  padding: 45px 23px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.home-contents {
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5vw;
+  max-width: 50%;
+
+  animation: fadeIn 3s;
+}
+
+.home-contents h1 {
+  font-weight: bold;
+  color: white;
+  font-size: max(4.5vw, 22px);
+}
+
+.home-contents p {
+  color: white;
+  font-size: 1vw;
+}
+
+
+@media (max-width: 768px) {
+  .home-contents p {
+    
+    font-size: 1.2vw;
+  }
+  
+  .home {
+    min-height: 60vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-contents p {
+    
+    font-size: 1.5vw;
+  }
+  .home-contents {
+    max-width: 80%;
+  }
+  .home {
+    min-height: 80vw;
+  }
+}
