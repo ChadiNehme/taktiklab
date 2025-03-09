@@ -1,8 +1,8 @@
 .home {
   background: linear-gradient(0deg, rgba(50, 130, 255, 0.4), rgba(10, 80, 255, 0.9)), url('/taktiklablogo.webp') no-repeat right center;
-  /* -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; */
+  -o-background-size: cover;
   background-size: contain;
   min-height: 40vw;
   color: white;
